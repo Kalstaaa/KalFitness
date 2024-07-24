@@ -1,0 +1,121 @@
+.header {
+    background-image: url('/public/images/BG.jpg');
+    width: 100%;
+    min-height: 100vh;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.overlay {
+    background-color: black;
+    opacity: 0.6;
+    width: 100%;
+    min-height: 100vh;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 50px;
+    box-sizing: border-box;
+}
+
+.section-text {
+    color: white;
+    position: relative;
+    width: 50%;
+    margin: 0 10px;
+}
+
+.section-text h1 {
+    font-size: 4rem;
+    margin: 0;
+    padding: 0;
+    line-height: 1.2;
+}
+
+.button-section {
+    margin-top: 20px;
+}
+
+.button-section button:nth-child(1) {
+    height: 50px;
+    width: 150px;
+    border: gold solid;
+    border-radius: 10px 0 0 10px;
+    background-color: gold;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.button-section button:nth-child(1):hover {
+    border: none;
+    background-color: rgba(255, 217, 0, 0.542);
+    transition: 0.3s;
+}
+
+.button-section button:nth-child(2) {
+    height: 50px;
+    width: 150px;
+    border: rgb(172, 151, 30) solid;
+    border-radius: 0 10px 10px 0;
+    background-color: rgb(172, 151, 30);
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.button-section button:nth-child(2):hover {
+    border: none;
+    background-color: rgba(172, 151, 30, 0.632);
+    transition: 0.3s;
+}
+
+
+.review {
+    width: 20%;
+    color: white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 300px;
+}
+
+.image-review {
+    display: flex;
+    justify-content: center;
+}
+
+.image-review img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.review-text {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.review-text h1 {
+    font-size: 2rem;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.review-text p {
+    margin: 5px 0 0;
+    display: flex;
+    justify-content: center;
+}
